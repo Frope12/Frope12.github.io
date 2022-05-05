@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/alapstilus.css" title="normal">
+	<link rel="alternate stylesheet" type="text/css" href="./css/nagybetus.css" title="nagybetus">
+	<link rel="stylesheet" href="./css/print.css" media="print">
+	<script type="text/javascript" src="./scripts/styleswitcher.js"></script>
+	<title>F1 - Űrlap</title>
+</head>
+
+<body>
+	<header>
+		<div class="header">
+			<h1>Formula-1</h1>
+			<a href="./képek/f1logo.png">
+				<img src="./képek/f1logo.png" alt="f1 logo"/>
+			</a>
+			<p></p>
+			<nav>
+				<ul>
+					<li><a href="./index.html">Főoldal</a></li>
+					<li><a href="./auto.html">Az autóról</a></li>
+					<li><a href="./versenyzok.html">Az idei versenyzők</a></li>
+					<li><a href="./urlap.html" style="background-color: black;">Űrlap</a></li>
+				</ul>
+			</nav>
+			<nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;">Nagybetűs változat</a>
+				<a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;">Normál változat</a>
+			</nav>
+		</div>
+	</header>
+	<div class="urlap">
+		<br><br>
+		<form action="mailto:adamprotar@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+			<label for="name">Név:</label><br>
+			<input type="text" id="name" name="name"><br>
+				<h2>Szerinted ki lesz a világbajnok?</h2>
+				<div class="flexbox">
+				<ul>
+					<li>
+						<input type="radio" id="ham" name="nevek" value="Hamilton">
+						<label for="ham"><span lang="en">Hamilton</span></label>
+					</li>
+					<li>
+						<input type="radio" id="rus" name="nevek" value="Russell">
+						<label for="rus"><span lang="en">Russell</span></label>
+					</li>
+					<li>
+						<input type="radio" id="ver" name="nevek" value="Verstappen">
+						<label for="ver"><span lang="nl">Verstappen</span></label>
+					</li>
+					<li>
+						<input type="radio" id="per" name="nevek" value="Perez">
+						<label for="per"><span lang="es-MX">Perez</span></label>
+					</li>
+					<li>
+						<input type="radio" id="nor" name="nevek" value="Norris">
+						<label for="nor"><span lang="en">Norris</span></label>
+					</li>
+					<li>
+						<input type="radio" id="ric" name="nevek" value="Ricciardo">
+						<label for="ric"><span lang="en">Ricciardo</span></label>
+					</li>
+					<li>
+						<input type="radio" id="vet" name="nevek" value="Vettel">
+						<label for="vet"><span lang="de">Vettel</span></label>
+					</li>
+					<li>
+						<input type="radio" id="str" name="nevek" value="Stroll">
+						<label for="str"><span lang="en">Stroll</span></label>
+					</li>
+					<li>
+						<input type="radio" id="oco" name="nevek" value="Ocon">
+						<label for="oco"><span lang="fr">Ocon</span></label>
+					</li>
+					<li>
+						<input type="radio" id="alo" name="nevek" value="Alonso">
+						<label for="alo"><span lang="es">Alonso</span></label>
+					</li>
+					<li>
+						<input type="radio" id="lec" name="nevek" value="Leclerc">
+						<label for="lec"><span lang="fr">Leclerc</span></label>
+					</li>
+					<li>
+						<input type="radio" id="sai" name="nevek" value="Sainz">
+						<label for="sai"><span lang="es">Sainz</span></label>
+					</li>
+					<li>
+						<input type="radio" id="gas" name="nevek" value="Gasly">
+						<label for="gas"><span lang="fr">Gasly</span></label>
+					</li>
+					<li>
+						<input type="radio" id="tsu" name="nevek" value="Tsunoda">
+						<label for="tsu"><span lang="ja">Tsunoda</span></label>
+					</li>
+					<li>
+						<input type="radio" id="bot" name="nevek" value="Bottas">
+						<label for="bot"><span lang="fi">Bottas</span></label>
+					</li>
+					<li>
+						<input type="radio" id="zho" name="nevek" value="Zhou">
+						<label for="zho"><span lang="zh">Zhou</span></label>
+					</li>
+					<li>
+						<input type="radio" id="mag" name="nevek" value="Magnussen">
+						<label for="mag"><span lang="da">Magnussen</span></label>
+					</li>
+					<li>
+						<input type="radio" id="msc" name="nevek" value="Schumacher">
+						<label for="msc"><span lang="de">Schumacher</span></label>
+					</li>
+					<li>
+						<input type="radio" id="alb" name="nevek" value="Albon">
+						<label for="alb"><span lang="en">Albon</span></label>
+					</li>
+					<li>
+						<input type="radio" id="lat" name="nevek" value="Latifi">
+						<label for="lat"><span lang="en">Latifi</span></label>
+					</li>
+				</ul>
+				<div id="kulon">
+					<br><h2>Szerinted ki fogja a konstruktőrit megnyerni?</h2>
+					<ul>
+						<li>
+							<input type="radio" id="mer" name="csapatok" value="Mercedes">
+							<label for="mer">Mercedes</label>
+						</li>
+						<li>
+							<input type="radio" id="rb" name="csapatok" value="Red Bull">
+							<label for="rb">Red Bull</label>
+						</li>
+						<li>
+							<input type="radio" id="mcl" name="csapatok" value="McLaren">
+							<label for="mcl">McLaren</label>
+						</li>
+						<li>
+							<input type="radio" id="amr" name="csapatok" value="Aston Martin">
+							<label for="amr">Aston Martin</label>
+						</li>
+						<li>
+							<input type="radio" id="alp" name="csapatok" value="Alpine">
+							<label for="alp">Alpine</label>
+						</li>
+						<li>
+							<input type="radio" id="fer" name="csapatok" value="Ferrari">
+							<label for="fer">Ferrari</label>
+						</li>
+						<li>
+							<input type="radio" id="at" name="csapatok" value="AlphaTauri">
+							<label for="at">AlphaTauri</label>
+						</li>
+						<li>
+							<input type="radio" id="alfa" name="csapatok" value="Alfa Romeo">
+							<label for="alfa">Alfa Romeo</label>
+						</li>
+						<li>
+							<input type="radio" id="haas" name="csapatok" value="Haas">
+							<label for="haas">Haas</label>
+						</li>
+						<li>
+							<input type="radio" id="wil" name="csapatok" value="Williams">
+							<label for="wil">Williams</label>
+						</li>
+					</ul>
+				</div>
+				</div>
+			<br><br>
+			<label for="megj">Megjegyzés:</label>
+			<textarea maxlength="777" id="megj" name="megj" rows="8" cols="100" style="display: block;" placeholder="Kérlek ide írd a megjegyzésed (maximum 777 karakter)"></textarea><br>
+			<input type="checkbox" id="watch" name="watch" value="yes">
+			<label for="watch">Szoktam Forma-1-et nézni.</label><br><br>
+			<input type="reset" style="height: 50px;">
+			<input type="submit" style="height: 50px;">
+		</form>
+	</div>
+</body>
+</html>

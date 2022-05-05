@@ -1,0 +1,48 @@
+@import url('./alapstilus.css');
+
+h2 {
+    font-size: 3em;
+}
+
+aside {
+	font-size: 1em
+}
+
+.container p {
+    font-size: 2.5em;
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 2em;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.header li a {
+    font-size: 1.5em;
+}
+
+table {
+    font-size: 2em;
+}
+
+.urlap ul, li {
+    font-size: 1.5em;
+}
+
+#kulon ul, li {
+    font-size: 1.5em;
+}
+
+label{
+	font-size: 1.2em;
+}
+
+figcaption{
+	font-size: 2em;
+}
+	
+
+
+	

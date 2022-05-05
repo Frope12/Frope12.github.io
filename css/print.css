@@ -1,0 +1,63 @@
+@media print{
+  body{ background-color:#FFFFFF; background-image:none; color:#000000; text-align: left;}
+  table {
+    page-break-inside: auto;
+  }
+  tr {
+    page-break-inside: avoid;
+  }
+  header{
+    display: none;
+  }
+  footer{
+      display:none;
+  }
+  video{
+      display: none;
+  }
+  section {
+    page-break-inside: avoid;
+  }
+  .container{
+      page-break-inside: auto;
+      display: block;
+  }
+  .container p {
+    text-align: justify;
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+    padding: 0;
+    background-color: white;
+    border-radius: 0;
+    display:block;
+    width:fit-content;
+  }
+  .container img {
+      float:none;
+      display: block;
+      width: 150px;
+      margin-right: 0;
+      border-radius: 0;
+      border: none;
+  }
+  figcaption{
+      display:none;
+  }
+  aside {
+      float: right;
+      margin-right: 25em;
+  }
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+@page {
+    margin: 1cm;
+  }

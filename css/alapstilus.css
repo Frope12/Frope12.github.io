@@ -1,0 +1,189 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+body {
+    background-color: lightgrey;
+    font-family:Arial, Verdana, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 3px 3px 3px #ccc;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    font-size: .75em
+}
+
+a:visited {
+    color: #AD0000;
+}
+
+a:link {
+    color: #6B0000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container p {
+    font-size: 1.5em;
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 2em;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.container img {
+    float: right; 
+    width: 350px; 
+    margin-right: 10px; 
+    border-radius: 5px; 
+    border: 1px solid black;
+}
+
+@media screen {
+    .header img {
+        float: right;
+        width: auto;
+        max-width: 500px;
+    }
+}
+
+  
+.header h1 {
+    display: inline;
+    font-size: 5em;
+    top: 18px;
+    left: 10px;
+    color: red;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+.header li {
+    float: left;
+    border-right: 1px solid #bbb;
+    width: 24.9%;
+    position: relative;
+}
+
+.header li:last-child {
+    border-right: none;
+}
+
+.header li a {
+    font-size: 1em;
+    display: block;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header li a:hover {
+    background-color: #111;
+}
+
+.header li a:active {
+    background-color: black;
+}
+
+.kepesvideo {
+    font-size:x-large;
+    text-align: justify;
+}
+
+p {
+    margin-top: 18px;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+table {
+    font-size: 1.2em;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+input {
+    padding: 0.5em;
+    border: solid 1px #999
+}
+
+.urlap {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.urlap ul, li {
+    margin: 0; 
+    padding: 0; 
+    list-style: none;
+    column-width: 100px;
+    column-count: 2;
+    border-spacing: 50px 0;
+    border-collapse: separate;
+    position: relative;
+    top: 0;
+    font-size: 1em;
+}
+
+.urlap li+li{
+    margin-top: 10px;
+}
+
+#kulon p {
+    margin-top: 0;
+}
+
+#kulon ul, li {
+    column-count: 1;
+    column-width: 100px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1em;
+}
+
+.flexbox {
+    display: inline-block;
+}
+ 
