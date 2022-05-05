@@ -1,5 +1,9 @@
 @media print{
   body{ background-color:#FFFFFF; background-image:none; color:#000000; text-align: left; font-size: 1em;}
+  h2 {
+    font-size: 1.5em;
+  }
+  
   table {
     page-break-inside: auto;
   }
@@ -48,7 +52,7 @@
   aside {
       float: right;
       margin-right: 25em;
-      font-size: .75em;
+      font-size: .5em;
   }
   .header li a {
     font-size: 1em;
@@ -64,10 +68,16 @@
   table {
     font-size: 1.2em;
   }
-  .urlap {
+  .urlap ul, li {
     font-size: 1em;
   }
   #kulon {
+    font-size: 1em;
+  }
+  label{
+    font-size: .75em;
+  }
+  figcaption{
     font-size: 1em;
   }
 }
