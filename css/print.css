@@ -1,5 +1,5 @@
 @media print{
-  body{ background-color:#FFFFFF; background-image:none; color:#000000; text-align: left;}
+  body{ background-color:#FFFFFF; background-image:none; color:#000000; text-align: left; font-size: 1em;}
   table {
     page-break-inside: auto;
   }
