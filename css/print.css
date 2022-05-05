@@ -32,6 +32,7 @@
     border-radius: 0;
     display:block;
     width:fit-content;
+    font-size: 1.5em;
   }
   .container img {
       float:none;
@@ -47,6 +48,10 @@
   aside {
       float: right;
       margin-right: 25em;
+      font-size: .75em;
+  }
+  .header li a {
+    font-size: 1em;
   }
   a:link {
     color: black;
@@ -55,6 +60,15 @@
   a:visited {
     color: black;
     text-decoration: none;
+  }
+  table {
+    font-size: 1.2em;
+  }
+  .urlap {
+    font-size: 1em;
+  }
+  #kulon {
+    font-size: 1em;
   }
 }
 
