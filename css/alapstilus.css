@@ -187,3 +187,10 @@ input {
     display: inline-block;
 }
  
+a#normalbetu {
+    display:none;
+}
+
+a#nagybetu {
+    display:block;
+}

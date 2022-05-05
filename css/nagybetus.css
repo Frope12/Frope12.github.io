@@ -43,5 +43,12 @@ figcaption{
 	font-size: 2em;
 }
 
+a#normalbetu {
+    display:block;
+}
+
+a#nagybetu {
+    display:none;
+}
 
 	
