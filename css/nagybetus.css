@@ -42,7 +42,10 @@ label{
 figcaption{
 	font-size: 2em;
 }
-	
+
+a#normal {
+    display:none
+}
 
 
 	

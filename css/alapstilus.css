@@ -187,3 +187,6 @@ input {
     display: inline-block;
 }
  
+a#nagybetus {
+    display: none;
+}
