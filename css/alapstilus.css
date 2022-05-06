@@ -194,3 +194,6 @@ a#normalbetu {
 a#nagybetu {
     display:block;
 }
+
+.kipozicional a {position:absolute; left:-9999px;}				
+.kipozicional a:focus {position:static; background:white}
